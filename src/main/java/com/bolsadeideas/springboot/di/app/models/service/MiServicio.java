@@ -1,10 +1,12 @@
 package com.bolsadeideas.springboot.di.app.models.service;
 
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 /*Singletone*/
-@Component("miServicioSimple")
+//@Primary
+//@Component("miServicioSimple")
 public class MiServicio implements IServicio {
 	
 	@Override
